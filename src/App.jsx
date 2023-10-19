@@ -1,20 +1,23 @@
-import { useState } from 'react'
-import { Profile } from './components/profile'
-import './App.css'
+import { useState } from "react";
+import { Profile } from "./components/profile";
+import { User } from "./components/user";
+import { Id } from "./components/id";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <Profile></Profile>
+      <div className="card1">
+        <div className="card2">
+          <Profile></Profile>
+          <User></User>
+          <Id></Id>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
