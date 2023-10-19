@@ -17,3 +17,8 @@
   background-color: #0055FF5F;
   border-radius: 20px;
 }
+.ord{
+  position: relative;
+  display: flex;
+  left: 35px;
+}

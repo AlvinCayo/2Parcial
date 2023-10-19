@@ -1,4 +1,6 @@
 .borde{
     border: 10px;
-
+    position: relative;
+    top: -50px;
+    left: -149px;
 }

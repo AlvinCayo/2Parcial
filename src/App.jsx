@@ -12,8 +12,10 @@ function App() {
       <div className="card1">
         <div className="card2">
           <Profile></Profile>
-          <User></User>
-          <Id></Id>
+          <div className="ord">
+            <User></User>
+            <Id></Id>
+          </div>
         </div>
       </div>
     </>

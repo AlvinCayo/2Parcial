@@ -1,7 +1,8 @@
 import React from 'react'
+import './styles/user.css'
 
 export const User = () => {
   return (
-    <div>burak</div>
+    <div className='name'>burak</div>
   )
 }
