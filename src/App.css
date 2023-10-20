@@ -8,6 +8,14 @@
 .card1 {
   width: 484px;
   height: 321px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #00000099;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
   
 }
 
