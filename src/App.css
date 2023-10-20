@@ -11,7 +11,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #00000099;
   border-radius: 20px;
   flex-wrap: wrap;
   flex-direction: row;
@@ -23,7 +22,10 @@
   width: 484px;
   height: 160px;
   background-color: #0055FF5F;
-  border-radius: 20px;
+  
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
 }
 .ord{
   position: relative;
