@@ -15,20 +15,33 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
-  
 }
 
-.card2{
+.card2 {
   width: 484px;
   height: 160px;
-  background-color: #0055FF5F;
-  
+  background-color: #0055ff5f;
+
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-
 }
-.ord{
+.ord {
   position: relative;
   display: flex;
   left: 35px;
+}
+
+.container {
+  width: 76px;
+  height: 33px;
+  background-color: #17181a;
+  border-radius: 7px;
+  position: relative;
+  left: 390px;
+  top: -110px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
 }
