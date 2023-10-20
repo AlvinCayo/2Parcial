@@ -1,0 +1,9 @@
+.iconos{
+    position: relative;
+    display: flex;
+    flex-direction: row;    
+}
+.icono1{
+    position: relative;
+    left: -10px;
+}
