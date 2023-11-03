@@ -4,6 +4,7 @@ import { User } from "./components/user";
 import { Id } from "./components/id";
 import { Banner } from "./components/banner";
 import { Container_icon } from "./components/container_icon";
+import { Prueba } from "./components/prueba";
 import "./App.css";
 
 function App() {
